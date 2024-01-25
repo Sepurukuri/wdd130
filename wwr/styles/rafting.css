@@ -33,30 +33,39 @@ footer{
 
 *{
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 }
 
-.hero{
+.hero {
     position: relative;
 }
 
 .hero img {
     display: block;
-    width: 840px;
+    width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.hero h1{
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
+    top: 20%;
+    right: 40%;
+    color: white;
 }
 
 .hero article {
     position: absolute;
+    top: 30%;
+    right: 20%;
+    color: white;
     background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 60%;
 }
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 200px;
 }
