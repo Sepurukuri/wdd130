@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root{
+    --primary-color: #522B29;
+    --secondary-color: #37FF8B;
+    --accent1-color: #51D6FF;
+
+    --heading-font:'Libre Baskerville', Serif;
+    --paragraph-font:'Libre Baskerville', Serif;
+
+    --nav-background-color: #522B29;
+    --nav-link-color: #51D6FF;
+    --nav-hover-link-color: #37FF8B;
+    --nav-hover-background-color: #51D6FF;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p{
+    padding: 20px;
+}
+
+a{
+    color: var(--primary-color);
+}
+
+footer{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 840px;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+}
+
+.hero article p {
+    margin-bottom: 15px;
+}
+
+
