@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    max-width: 840px;
-    margin: 0 auto;
-}
-
 nav{
     background-color: steelblue;
     padding: 10px;
@@ -72,8 +67,6 @@ footer{
     margin-top: 20px;
     border-top: 1px solid #000;
     text-align: center;
-    max-width: 840px;
-    margin: 0 auto;
 }
 
 /* Class selectors */
@@ -96,11 +89,14 @@ aside h2 {
 .grid{
     display: grid;
     align-items: center;
-    max-width: 840px;
-    margin: 0 auto;
 }
 
 main{
     grid-column: 2/3;
     margin: 1rem;
+}
+
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
 }
