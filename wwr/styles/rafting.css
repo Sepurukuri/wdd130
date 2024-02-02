@@ -33,6 +33,7 @@ footer{
     align-items: center; 
     padding: 20px; 
     justify-content: flex-end;
+    background: linear-gradient(to left, #522B29, #6d5f5f, #ceb9b8 );
 }
 
 footer p{
@@ -138,6 +139,7 @@ nav a:hover {
 }
 
 .adventure{
+    position: relative;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -146,7 +148,9 @@ nav a:hover {
 }
 
 .adventure h2{
-    margin-bottom: 10px;
+    position: absolute;
+    top: -10%;
+    right: 37%;
 }
 
 figure{
