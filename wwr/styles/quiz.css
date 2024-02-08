@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Libre Baskerville', Serif;
+    font-size: 1.2em;
+    color: #595858;
+    background: #fff;
+}
+
+header{
+    margin: auto;
+    width: 600px;
+}
+
+h1{
+    margin: 1rem;
+    font-size: 1.2em;
+    color: rgb(4, 4, 163);
+    text-align: center;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+}
+
+label{
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button{
+    margin: 1rem;
+    background-color: rgb(4, 4, 163);
+    color: #eee;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: rgb(107, 121, 117);
+}
+
+.form{
+    display: grid;
+    align-items: center;
+}
+
+.form-item{
+    grid-template-columns: 3fr 1fr ;
+    margin: 0.5rem 0;
+}
+
+p{
+    color: #eee;
+    background-color: #000;
+}
