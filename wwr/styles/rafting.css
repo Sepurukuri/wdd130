@@ -259,3 +259,34 @@ button:hover{
 .company-info tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+.trip-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trip {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.trip img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.trip-description {
+    padding: 10px;
+}
+.trip-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
